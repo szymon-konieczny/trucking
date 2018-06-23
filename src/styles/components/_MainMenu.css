@@ -38,7 +38,7 @@
     height: 30px;
     margin: 0 10px;
     border-radius: 50%;
-    background: #037ed1 url('../../images/magnifier.png') 
+    background: #037ed1 url('../images/magnifier.png') 
                 no-repeat 
                 center;
     cursor: pointer;

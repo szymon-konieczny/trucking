@@ -16,7 +16,7 @@
   .logo {
     width: 172px;
     height: 100%;
-    background: #ffffff url('../../images/logo.png') 
+    background: #ffffff url('../images/logo.png') 
                 no-repeat 
                 center;
   }
