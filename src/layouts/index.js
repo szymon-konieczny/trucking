@@ -21,7 +21,6 @@ const Layout = ({ data }) => (
       <Slider />
       <QuickMenu />
       <Offer />
-    
     </div>
   </div>
 );
