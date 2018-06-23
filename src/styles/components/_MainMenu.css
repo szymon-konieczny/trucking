@@ -38,10 +38,28 @@
     height: 30px;
     margin: 0 10px;
     border-radius: 50%;
-    background: #037ed1 url('../images/magnifier.png') 
-                no-repeat 
-                center;
+    background: #037ed1;
     cursor: pointer;
+    position: relative;
+  }
+  .main-menu__search::before {
+    content: '';
+    height: 8px;
+    width: 8px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  .main-menu__search::after {
+    content: '';
+    width: 5px;
+    border-top: 3px solid #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
   }
   .main-menu__search:hover {
     background-color: #2baaff;

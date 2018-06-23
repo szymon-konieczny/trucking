@@ -1,10 +1,11 @@
 import * as React from 'react';
 import MainMenu from './MainMenu';
+import logo from '../images/logo.png';
 
 const Header = () => (
   <div className="header-wrapper">
     <div className="header">
-      <div className="logo" />
+      <img src={ logo } />
       <MainMenu />
     </div>
   </div>
