@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "trucking",
+  "description": "Trucking",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Szymon Konieczny",
   "dependencies": {
     "contentful": "^6.1.1",
     "gatsby": "^1.9.247",
@@ -27,6 +27,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/szymon-konieczny/trucking"
   }
 }
