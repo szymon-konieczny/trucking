@@ -1,0 +1,30 @@
+.slider-wrapper {
+    grid-area: slider;
+    display: grid;
+    grid-template-columns: 1fr 1142px 1fr;
+    background-color: var(--heroWrapper);
+  }
+  .slider {
+    grid-column: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .slider__title {
+    width: 50%;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: .9;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+  }
+  .slider__title::before {
+    content: '';
+    width: 68px;
+    height: 4px;
+    background: #fdc300;
+    position: absolute;
+    top: -15px;
+    left: 0;
+  }

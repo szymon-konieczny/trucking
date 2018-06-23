@@ -1,0 +1,22 @@
+.header-wrapper {
+    background-color: var(--heroWrapper);
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 1142px 1fr;
+  }
+  .header {
+    background-color: #ffffff;
+    padding: 0 20px;
+    border-radius: 3px;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 172px;
+    height: 100%;
+    background: #ffffff url('../images/logo.png') 
+                no-repeat 
+                center;
+  }
